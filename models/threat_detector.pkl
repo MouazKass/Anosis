@@ -1,0 +1,5 @@
+{
+    'anomaly': IsolationForest(),      # Anomaly detector
+    'classifier': RandomForestClassifier(), # Threat classifier  
+    'scaler': StandardScaler()         # Feature normalizer
+}
