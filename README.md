@@ -58,7 +58,7 @@ joblib>=1.1.0
 ```bash
 # Clone the repository
 git clone https://github.com/mouazkass/anosis.git
-cd anosis-armour
+cd anosis
 
 # Create virtual environment
 python -m venv venv
@@ -223,21 +223,6 @@ For verbose output, modify the logging level in the script:
 ```python
 logging.basicConfig(level=logging.DEBUG)
 ```
-
-## 🤝 Contributing
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch
-3. Install development dependencies
-4. Make changes and test
-5. Submit a pull request
-
-### Code Style
-- Follow PEP 8 guidelines
-- Use type hints where possible
-- Add docstrings for functions
-- Include unit tests for new features
 
 ## 📄 License
 
